@@ -21,17 +21,17 @@ config.autoAddCss = false;
 
 
 export function ContactForm() {
-  const form = useRef();
+  const form = useRef(null);
   
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    emailjs.sendForm('service_2yy14b5', 'template_4yvpa49', form.current, 'Ar107ncBy5pCEc_zV')
+    emailjs.sendForm('service_2yy14b5', 'template_4yvpa49', form.current!, 'Ar107ncBy5pCEc_zV')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
     });
-    e.target.reset();
+    (e.target as HTMLFormElement).reset();
   }
   return (
     <section className="px-8 py-16" id="ContactSection">
@@ -41,7 +41,7 @@ export function ContactForm() {
         </Typography>
       </div>
       <div>
-        <Card shadow={true} className="container mx-auto border border-gray/50">
+        <Card shadow={true} className="container mx-auto border border-gray/50" >
           <CardBody className="grid grid-cols-1 lg:grid-cols-7 md:gap-10">
             <div className="w-full col-span-3 rounded-lg h-full py-8 p-5 md:p-16 bg-gray-900">
               <Typography variant="h4" color="white" className="mb-2">
