@@ -1,0 +1,40 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Anthony",
+  "license": "See license in https://www.creative-tim.com/license",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "2.0.18",
+    "@material-tailwind/react": "2.1.2",
+    "bootstrap-icons": "^1.11.3",
+    "i": "^0.3.7",
+    "next": "^14.0.4",
+    "npm": "^10.2.5",
+    "react": "18",
+    "react-dom": "18",
+    "react-social-icons": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "autoprefixer": "10",
+    "eslint": "8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "8",
+    "tailwindcss": "3",
+    "typescript": "5"
+  }
+}
