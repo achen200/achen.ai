@@ -3,11 +3,10 @@ import {Subskill, ChildProps} from "./subskill";
 
 interface SkillCardProps {
   title: string;
-  icon: React.ElementType;
   children: ChildProps[];
 }
 
-export function SkillCard({ icon: Icon, title, children }: SkillCardProps) {
+export function SkillCard({title, children }: SkillCardProps) {
   return (
     <Card color="transparent" shadow={true}>
       <CardBody className="grid justify-center text-center">
@@ -17,10 +16,7 @@ export function SkillCard({ icon: Icon, title, children }: SkillCardProps) {
         <Typography variant="h4" color="blue-gray" className="mb-2">
           {title}
         </Typography>
-		<Subskill children={children}/>
-        {/* <Typography className="px-8 font-normal !text-gray-500">
-          {children}
-        </Typography> */}
+		<Subskill>{children}</Subskill>
       </CardBody>
     </Card>
   );
