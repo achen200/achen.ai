@@ -2,40 +2,32 @@
 
 
 import { Typography } from "@material-tailwind/react";
-import {
-RectangleGroupIcon,
-SwatchIcon,
-ServerStackIcon,
-CpuChipIcon,
-ChartBarIcon
-} from "@heroicons/react/24/solid";
-import { faAngular, faBitbucket, faDocker, faGithubSquare, faJs, faLinux, faNodeJs, faPython, faReact} from '@fortawesome/free-brands-svg-icons';
 import { SkillCard } from "@/components";
 
 const SKILLS = [
 	{
 	title: "Front End",
-	children: [{name:"JavaScript", icon:faJs}, 
-		{name:"ReactJS", icon:faReact}, 
-		{name:"AngularJS", icon:faAngular}],
+	children: [{name:"JavaScript", src:"/logos/js.svg"}, 
+		{name:"ReactJS", src:"/logos/react.svg"}, 
+		{name:"AngularJS", src:"/logos/angular.svg"}],
 	},
 	{
 	title: "Back End",
-	children: [{name:"NodeJS", icon:faNodeJs}, 
-		{name:"PostgreSQL", src:"/logos/postgresql.svg"}, 
-		{name:"Docker", icon:faDocker}]
+	children: [{name:"NodeJS", src:"/logos/node.svg"}, 
+		{name:"PostgreSQL", src:"/logos/postgresql3.svg"}, 
+		{name:"Docker", src:"/logos/docker.svg"}]
 	},
 	{
 	title: "DevOps",
-	children:[{name:"Github", icon:faGithubSquare}, 
-		{name:"Bitbucket", icon:faBitbucket}, 
-		{name:"Linux", icon:faLinux}]
+	children:[{name:"Github", src:"/logos/github.svg"}, 
+		{name:"Bitbucket", src:"/logos/bitbucket.svg"}, 
+		{name:"Linux", src:"/logos/linux.svg"}]
 	},
 	{
 	title: "Machine Learning",
 	children:[{name:"Pytorch", src:"/logos/pytorch.svg"}, 
 		{name:"Tensorflow", src:"/logos/tensorflow.svg"}, 
-		{name:"Python", icon:faPython}]
+		{name:"Python", src:"/logos/python.svg"}]
 	},
 	{
 	title: "Other",
