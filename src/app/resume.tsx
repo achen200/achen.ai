@@ -3,8 +3,8 @@
 import { Typography, Button } from "@material-tailwind/react";
 import {
   ChartBarIcon,
-  PuzzlePieceIcon,
-  CursorArrowRaysIcon,
+  BookOpenIcon,
+  AcademicCapIcon,
   ArrowRightIcon,
 } from "@heroicons/react/24/solid";
 import { ResumeItem } from "@/components";
@@ -15,12 +15,12 @@ const RESUME_ITEMS = [
     children: "B.S. in Computer Science",
   },
   {
-    icon: PuzzlePieceIcon,
+    icon: BookOpenIcon,
     children: "Regents' Scholarship",
   },
   {
-    icon: CursorArrowRaysIcon,
-    children: "Magna Cum Laude",
+    icon: AcademicCapIcon,
+    children: "3.9 GPA",
   },
 ];
 
