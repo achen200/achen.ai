@@ -53,7 +53,7 @@ return (
 			Languages, Frameworks, and Libraries
 		</Typography>
 	</div>
-	<div className="container mx-auto grid grid-cols-2 gap-y-10	 md:grid-cols-2 lg:grid-cols-2">
+	<div className="container mx-auto grid gap-y-10	sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
 		{SKILLS.map((props, idx) => (
 		<SkillCard key={idx} {...props} />
 		))}
