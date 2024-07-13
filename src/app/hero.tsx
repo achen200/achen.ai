@@ -19,7 +19,7 @@ function Hero() {
             variant="lead"
             className="mb-4 !text-gray-500 md:pr-16 xl:pr-28"
           >
-            I&apos;m Anthony Chen, a UCSD Computer Science (soon-to-be) graduate
+            I&apos;m Anthony Chen, a UCSD Computer Science graduate
             with a passion for building projects and exploring new ideas.
           </Typography>
           <div className="grid">

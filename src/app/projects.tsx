@@ -9,7 +9,7 @@ const PROJECTS = [
 	title:"Aircraft Generator",
 	desc:"Using deep learning (DCGAN) to generate realistic airplane images.",
 	bdest:"/html/aircraftgen.html",
-	bname:"View Results"
+	bname:"View Results"		
 },
 {
 	img: "/image/wallets.png",
