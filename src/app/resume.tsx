@@ -28,7 +28,7 @@ export function Resume() {
   return (
     <section className="px-8 py-24" id="ResumeSection">
       <div className="container mx-auto grid w-full grid-cols-1 items-center gap-16 lg:grid-cols-2">
-        <div className="col-span-1 bg-[url('/image/resume2.png')] bg-opacity-25 p-10">
+        <div className="col-span-1 bg-[url('/image/resume.png')] bg-opacity-25 p-10">
           <Typography variant="h2" color="blue-gray" className="bg-white bg-opacity-25">
             My Resume
           </Typography>
